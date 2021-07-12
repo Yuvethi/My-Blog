@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Yuvethi</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#environment">Environment</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="page-header" id="travel">
+            <h2 class="text-capitalize">places you must visit</h2>
+        </div>
+        <center>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="New_York's_Finger_Lakes.jpeg">
+                <h4 class="text-capitalize"><kbd>finger lakes</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">i visited in june 2021</h5>
+                <p class="text-muted text-left">It was very windy near one of the lakes(Lamoka Lake). There was also a current so it was hard to boat on the water. Other than that, me and my family stayed at this very nice cove. Overall, I really liked the Lamoka Lake.</p>
+            </div>
+        </center>
+        <div class="page-header" id="movies">
+            <h2 class="text-capitalize">review on the movies</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#themitchellsvsthemachines">
+            <span class="glyphicon glyphicon-film">The Mitchells vs The Machines <i class="fa fa-sort-desc"></i></span>
+        </div>
+        <div id="themitchellsvsthemachines" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="themitchellsvsthemachines.jpeg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Amazing film to watch with your family.
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p>This movie was great. It really showed to spend more time with your family. Love this movie. People should watch this movie a lot of times. I really reccomend to watch this movie. Such a great film.</p>
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+            <h2 class="text-capitalize">news about the environment</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>‘Megadrought’ along border strains US-Mexico water relations</h4>
+                <img src="https://images.theconversation.com/files/409134/original/file-20210630-27-1mk7ty0.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The United States and Mexico are tussling over their dwindling shared water supplies after years of unprecedented heat and insufficient rainfall.
+                    Sustained drought on the middle-lower Rio Grande since the mid-1990s means less Mexican water flows to the U.S. The Colorado River Basin, which supplies seven U.S. states and two Mexican states, is also at record low levels.
+
+                </p>
+            </li>
+        </ul>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+        <h2 class="text-capitalize">books</h2>
+        </div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>Simone Biles</h3>
+        <h4>
+    <mark class="header_gymnast">
+            <i>
+        <sup><i class="fa fa-quote-left"></i></sup>
+                Practice creates confidence. Confidence empowers you.
+                <sup><i class="fa fa-quote-right"></i></sup>
+        </i>
+            </mark>
+    </h4>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2 class="text-capitalize">list of books</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Guts">
+        <img src="guts%20cover%20pic.jpeg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Guts</p>
+        </div>
+<div class="modal fade" id="Guts">
+        <div class="modal-dialog">
+    <div class="modal-content">
+            <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Guts</h4>
+        </div>
+        <div class="modal-body">
+        <img src="guts%20cover%20pic.jpeg" class="img-responsive img_modal">
+            <p class="p_modal">Raina wakes up one night with a terrible upset stomach. Her mom has one, too, so it’s probably just a bug. Raina eventually returns to school, where she’s dealing with the usual highs and lows: friends, not-friends, and classmates who think the school year is just one long gross-out session. It soon becomes clear that Raina’s tummy trouble isn’t going away… and it coincides with her worries about food, school, and changing friendships. 
+            <br>
+                <a href="https://www.amazon.com/Guts-Raina-Telgemeier/dp/0545852501/ref=asc_df_0545852501/?tag=hyprod-20&linkCode=df0&hvadid=385480457215&hvpos=&hvnetw=g&hvrand=11956102177014381937&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001881&hvtargid=pla-580727564361&psc=1&tag=&ref=&adgrpid=77500929534&hvpone=&hvptwo=&hvadid=385480457215&hvpos=&hvnetw=g&hvrand=11956102177014381937&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001881&hvtargid=pla-580727564361" target="_blank"> <b>Buy it on amazon.</b></a>
+            </p>
+        </div>
+            </div>
+    </div>
+        </div>
+
+
+
+
+
+
+
+        <section id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188820.8050329451!2d-71.1103683317311!3d42.314264701709575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA!5e0!3m2!1sen!2sus!4v1626119943240!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<hr style="width: 100%;">
+            <img src="IMG-3100%20copy.jpg" class="img-responsive img-circle col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <h3>Yuvethi</h3>
+
+            <div class="contact_1">
+
+                <a href="mailto:yuvethi@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;yuvethi@gmail.com</h5>
+                </a>
+                <br>
+                <a href="https://www.youtube.com/channel/UCxvPyLxDJ83mE20sErpQqiA" target="_blank">
+                <h5><i class="fa fa-youtube"></i>&nbsp;&nbsp;Yuvethi</h5>
+                </a>
+
+                
+            </div>
+        </section>
+
+
+</body>
+
+</html>
